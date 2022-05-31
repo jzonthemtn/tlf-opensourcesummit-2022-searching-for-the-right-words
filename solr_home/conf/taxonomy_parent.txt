@@ -1,0 +1,13 @@
+# Capture how the *user* structures information
+#looneytunes, looney tunes => looney_tunes
+#bugs bunny => bug_bunny, looney_tunes
+#mickey mouse => mickey_mouse, disney
+#minnie mouse => minnie_mouse, disney
+#donald duck => donald_duck, disney
+#yogi bear => yogi_bear, disney
+
+wife => wife, spouse
+bride => bride, spouse
+
+science fiction => science_fiction, fiction, adventure
+fantasy => fantasy, fiction, adventure
