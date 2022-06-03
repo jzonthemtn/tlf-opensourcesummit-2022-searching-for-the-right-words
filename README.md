@@ -4,6 +4,8 @@ This repository contains some of the code for the presentation "Searching for th
 
 This repository was adapted from [solr-tmdb](https://github.com/o19s/solr-tmdb) for the ease of having a Solr container with data to index.
 
+This repository contains model files included in git-lfs.
+
 ## Abstract
 
 [Searching for the Right Words: Bringing NLP to Apache solr through ONNX and OpenNLP](https://sched.co/11Nq2)
