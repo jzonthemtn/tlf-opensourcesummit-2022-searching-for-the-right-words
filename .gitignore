@@ -1,13 +1,9 @@
-housekeeping/create_dataset/*.json
 tmdb_solr*.json
-solr_home/tmdb/conf/*
-venv
-*.pyc
 tmdb.json
 data/
-#lib/
 bin/
 .idea/
 *.cfg
 .DS*
 __pycache__
+*.swp
