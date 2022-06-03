@@ -12,13 +12,15 @@ Natural language processing capabilities have exploded in the past few years, wi
 
 ## Usage
 
-### Export a Model to ONNX
+Build the Solr 9.0.0-SNAPSHOT Docker image from the `opennlp-onnx` branch. (This image is referenced by the `docker-compose.yml` file in this repository.)
 
 Install the dependencies in `requirements.txt`. Then, run the `export.sh` script to take a sequence classification model from the Huggingface Hub and export it to ONNX. The exported model will be written to the `onnx` directory.
 
 Next, run the `run.sh` script to build the Docker image and run it using `docker-compose`. This will start a Solr container containing the OpenNLP 2.0 with ONNX integration and configuration.
 
 Run the `index.sh` script to index documents into the `tmdb` index.
+
+During the indexing, each movie description will be processed using the OpenNLP document categorizer. Each document will have a `classification` field that indicates the model's predicted category.
 
 ## License
 
