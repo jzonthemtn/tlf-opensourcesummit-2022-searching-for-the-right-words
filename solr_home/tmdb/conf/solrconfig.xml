@@ -746,8 +746,8 @@
 
 <updateRequestProcessorChain name="multiple-extract">
    <processor class="solr.processor.OpenNLPDoccatUpdateProcessorFactory">
-     <str name="modelFile">/opt/doccat.bin</str>
-     <str name="vocabFile">/opt/doccat.vocab.vocab</str>
+     <str name="modelFile">/opt/model.onnx</str>
+     <str name="vocabFile">/opt/vocab.txt</str>
      <str name="source">overview</str>
      <str name="dest">classification</str>
    </processor>
