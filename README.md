@@ -2,7 +2,7 @@
 
 This repository contains some of the code for the presentation "Searching for the Right Words" at the Linux Foundation Open Source Summit 2022 in Austin, TX. The other code is contained in my Lucene and Solr forks. After building all of those projects in order, this repository can be used to build a Solr container to utilize an ONNX model for document classification during indexing.
 
-This repository was adapted from [solr-tmdb](https://github.com/o19s/solr-tmdb).
+This repository was adapted from [solr-tmdb](https://github.com/o19s/solr-tmdb) for the ease of having a Solr container with data to index.
 
 ## Abstract
 
