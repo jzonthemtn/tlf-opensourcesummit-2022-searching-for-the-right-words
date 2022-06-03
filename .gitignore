@@ -8,4 +8,4 @@ bin/
 .DS*
 __pycache__
 *.swp
-onnx/
+*.onnx
