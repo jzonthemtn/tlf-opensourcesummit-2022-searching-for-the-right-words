@@ -4,8 +4,6 @@ This repository contains some of the code for the presentation "Searching for th
 
 This repository was adapted from [solr-tmdb](https://github.com/o19s/solr-tmdb) for the ease of having a Solr container with data to index.
 
-This repository contains model files included in git-lfs.
-
 ## Abstract
 
 [Searching for the Right Words: Bringing NLP to Apache solr through ONNX and OpenNLP](https://sched.co/11Nq2)
@@ -18,7 +16,7 @@ Natural language processing capabilities have exploded in the past few years, wi
 
 Install the dependencies in `requirements.txt`. Then, run the `export.sh` script to take a sequence classification model from the Huggingface Hub and export it to ONNX. The exported model will be written to the `onnx` directory.
 
-Next, update the Dockerfile 
+Next, run the `run.sh` script to build the Docker image and run it using `docker-compose`.
 
 ## License
 
