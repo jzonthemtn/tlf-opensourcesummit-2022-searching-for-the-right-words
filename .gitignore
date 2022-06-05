@@ -9,3 +9,4 @@ bin/
 __pycache__
 *.swp
 *.onnx
+conll2003/
