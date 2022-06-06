@@ -132,6 +132,7 @@
     <field name="vote_count" type="pint" indexed="true" stored="true" multiValued="false"/>
     <field name="cast_nomv" type="text_general" indexed="true" stored="true" multiValued="false"/>
 
+    <field name="classification" type="string" indexed="true" stored="true" required="true" multiValued="false"/>
 
     <copyField source="genres" dest="genres_s"/>
 

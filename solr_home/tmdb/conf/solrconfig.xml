@@ -749,7 +749,7 @@
      <str name="modelFile">/opt/model.onnx</str>
      <str name="vocabFile">/opt/vocab.txt</str>
      <str name="source">overview</str>
-     <str name="dest">classification</str>
+     <str name="dest">onnx_classification</str>
    </processor>
    <processor class="solr.LogUpdateProcessorFactory" />
    <processor class="solr.RunUpdateProcessorFactory" />

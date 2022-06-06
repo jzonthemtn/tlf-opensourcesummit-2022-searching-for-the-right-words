@@ -343,6 +343,7 @@
   <field name="title" type="text_general" termPositions="true" termVectors="true" indexed="true" termOffsets="true" stored="true"/>
   <field name="vote_average" type="pfloat" docValues="false" multiValued="false" indexed="true" stored="true"/>
   <field name="vote_count" type="pint" multiValued="false" indexed="true" stored="true"/>
+  <field name="onnx_classification" type="string" indexed="true" stored="true" multiValued="false"/>
   <dynamicField name="*_multiterm_index_syn" type="text_general_multiterm_index_syn" indexed="true" stored="true"/>
   <dynamicField name="*_auto_phrase_bigram" type="text_general_auto_phrase_bigram" indexed="true" stored="true"/>
   <dynamicField name="*_auto_phrase_syn" type="text_general_auto_phrase_syn" indexed="true" stored="true"/>
