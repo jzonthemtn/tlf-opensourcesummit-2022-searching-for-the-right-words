@@ -744,7 +744,7 @@
     </lst>
   </requestHandler>
 
-<updateRequestProcessorChain name="multiple-extract">
+<updateRequestProcessorChain name="onnx-opennlp">
    <processor class="solr.processor.OpenNLPDoccatUpdateProcessorFactory">
      <str name="modelFile">/opt/model.onnx</str>
      <str name="vocabFile">/opt/vocab.txt</str>

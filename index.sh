@@ -11,4 +11,4 @@ curl "http://$HOSTNAME:8983/solr/tmdb/update" --data '<delete><query>*:*</query>
 
 curl "http://$HOSTNAME:8983/solr/tmdb/update" --data '<commit/>' -H 'Content-type:text/xml; charset=utf-8'
 
-curl "http://$HOSTNAME:8983/solr/tmdb/update?commit=true" --data-binary @tmdb_solr.json -H 'Content-type:application/json'
+curl "http://$HOSTNAME:8983/solr/tmdb/update?update.chain=onnx-opennlp&commit=true" --data-binary @tmdb_solr.json -H 'Content-type:application/json'
