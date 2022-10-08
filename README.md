@@ -12,7 +12,7 @@ Natural language processing capabilities have exploded in the past few years, wi
 
 ## Usage
 
-Build the Solr 9.0.0-SNAPSHOT Docker image from the [https://github.com/jzonthemtn/solr/tree/opennlp-onnx](opennlp-onnx) branch of my Solr fork. (This image is referenced by the `docker-compose.yml` file in this repository.)
+Build the Solr 9.0.0-SNAPSHOT Docker image from the [opennlp-onnx](https://github.com/jzonthemtn/solr/tree/opennlp-onnx) branch of my Solr fork. (This image is referenced by the `docker-compose.yml` file in this repository.)
 
 Install the dependencies in `requirements.txt`. Then, run the `export.sh` script to take a sequence classification model from the Huggingface Hub and export it to ONNX. The exported model will be written to the `onnx` directory.
 
