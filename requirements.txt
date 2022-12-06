@@ -1,3 +1,3 @@
-torch==1.11.0
-transformers==4.19.2
-transformers-onnx==0.0.2
+torch
+transformers
+transformers-onnx
